@@ -107,8 +107,8 @@ public class AdapterBarangRecyclerView extends RecyclerView.Adapter<AdapterBaran
     }
 
     private void onEditBarang(int position){
-//        context.startActivity(RoomCreate.getActIntent((Activity)
-//                context).putExtra("data", daftarBarang.get(position)));
+        context.startActivity(RoomCreate.getActIntent((Activity)
+                context).putExtra("data", daftarBarang.get(position)));
     }
 
     @Override
